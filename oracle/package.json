@@ -10,7 +10,13 @@
     "seed:match2": "tsx src/seed-match2.ts",
     "setup": "tsx src/setup-match-onchain.ts",
     "setup:match2": "tsx src/setup-match2-onchain.ts",
-    "submit:match2": "tsx src/submit-to-chain.ts data/fixture-match2.json 2field"
+    "submit:match2": "tsx src/submit-to-chain.ts data/fixture-match2.json 2field",
+    "seed:match3": "tsx src/seed-match3.ts",
+    "setup:match3": "tsx src/setup-match3-onchain.ts",
+    "submit:match3": "tsx src/submit-to-chain.ts data/fixture-match3.json 3field",
+    "seed:match4": "tsx src/seed-match4.ts",
+    "setup:match4": "tsx src/setup-match4-onchain.ts",
+    "submit:match4": "tsx src/submit-to-chain.ts data/fixture-match4.json 4field"
   },
   "dependencies": {
     "@types/node": "^25.5.0",

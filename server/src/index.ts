@@ -5,6 +5,7 @@ import { matchesRouter } from "./routes/matches.js";
 import { playersRouter } from "./routes/players.js";
 import { contestsRouter } from "./routes/contests.js";
 import { authRouter } from "./routes/auth.js";
+import { adminRouter } from "./routes/admin.js";
 
 config();
 
@@ -24,6 +25,7 @@ app.use("/api/auth", authRouter);
 app.use("/api/matches", matchesRouter);
 app.use("/api/players", playersRouter);
 app.use("/api/contests", contestsRouter);
+app.use("/api/admin", adminRouter);
 
 app.listen(PORT, () => {
   console.log(`ZKFL server running on http://localhost:${PORT}`);

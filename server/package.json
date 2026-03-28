@@ -8,6 +8,8 @@
     "start": "tsx src/index.ts",
     "seed": "tsx src/db/seed.ts",
     "seed:match2": "tsx src/db/seed-match2.ts",
+    "seed:match3": "tsx src/db/seed-match3.ts",
+    "seed:match4": "tsx src/db/seed-match4.ts",
     "migrate": "tsx src/db/migrate.ts"
   },
   "dependencies": {
