@@ -1,0 +1,20 @@
+{
+  "program": "zkfl_prize_v2.aleo",
+  "version": "0.1.0",
+  "description": "Entry fees, escrow & payouts in Aleo credits",
+  "license": "MIT",
+  "leo": "3.4.0",
+  "dependencies": [
+    {
+      "name": "zkfl_match.aleo",
+      "location": "network",
+      "network": "testnet"
+    },
+    {
+      "name": "credits.aleo",
+      "location": "network",
+      "network": "testnet"
+    }
+  ],
+  "dev_dependencies": null
+}

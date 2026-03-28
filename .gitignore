@@ -1,0 +1,73 @@
+# ── Dependencies ──
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ── Environment Variables (NEVER commit secrets) ──
+.env
+.env.*
+!.env.example
+oracle/.env
+server/.env
+app/.env.local
+app/.env*.local
+contracts/**/.env
+
+# ── Next.js ──
+app/.next/
+app/out/
+app/build/
+app/.vercel
+next-env.d.ts
+*.tsbuildinfo
+
+# ── TypeScript build ──
+dist/
+build/
+*.js.map
+
+# ── Leo / Aleo contract build artifacts ──
+contracts/**/build/
+contracts/**/*.avm
+contracts/**/*.prover
+contracts/**/*.verifier
+contracts/**/outputs/
+contracts/**/.leo/
+
+# ── Oracle generated fixture data ──
+# Keep these out of git — regenerate with: npm run seed / npm run seed:match2
+oracle/data/
+
+# ── Logs ──
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ── OS ──
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── Misc ──
+*.pem
+coverage/
+.cache/
+tmp/
+temp/

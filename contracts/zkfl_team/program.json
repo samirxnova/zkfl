@@ -1,0 +1,15 @@
+{
+  "program": "zkfl_team_v2.aleo",
+  "version": "0.1.0",
+  "description": "Private team drafting & commitment (v2: relaxed club balance)",
+  "license": "MIT",
+  "leo": "3.4.0",
+  "dependencies": [
+    {
+      "name": "zkfl_match.aleo",
+      "location": "network",
+      "network": "testnet"
+    }
+  ],
+  "dev_dependencies": null
+}

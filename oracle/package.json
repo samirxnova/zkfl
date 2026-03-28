@@ -1,0 +1,22 @@
+{
+  "name": "zkfl-oracle",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx src/fetch-stats.ts",
+    "compute": "tsx src/compute-fantasy.ts",
+    "submit": "tsx src/submit-to-chain.ts",
+    "seed": "tsx src/seed-match.ts",
+    "seed:match2": "tsx src/seed-match2.ts",
+    "setup": "tsx src/setup-match-onchain.ts",
+    "setup:match2": "tsx src/setup-match2-onchain.ts",
+    "submit:match2": "tsx src/submit-to-chain.ts data/fixture-match2.json 2field"
+  },
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

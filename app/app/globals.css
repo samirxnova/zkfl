@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0f1923;
+  --bg-secondary: #1a2733;
+  --bg-card: #1e2d3d;
+  --accent: #00e5a0;
+  --accent-dim: #00b37d;
+  --text-primary: #e8edf2;
+  --text-secondary: #8899a6;
+  --border: #2d3f50;
+  --danger: #ff4757;
+  --warning: #ffa502;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Pitch green gradient */
+.pitch-bg {
+  background: linear-gradient(180deg, #1a5632 0%, #1e6b3a 50%, #1a5632 100%);
+}
+
+/* Card hover */
+.card-hover {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 229, 160, 0.15);
+}
+
+/* Badge styles */
+.badge-gk { background: #f5a623; color: #000; }
+.badge-def { background: #4fc3f7; color: #000; }
+.badge-mid { background: #81c784; color: #000; }
+.badge-fwd { background: #e57373; color: #fff; }
