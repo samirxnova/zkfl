@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
+    "build": "echo 'No build step required'",
     "start": "tsx src/index.ts",
     "seed": "tsx src/db/seed.ts",
     "seed:match2": "tsx src/db/seed-match2.ts",
